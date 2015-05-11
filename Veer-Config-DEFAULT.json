@@ -1,0 +1,21 @@
+{
+	"APIServerPort": 8080,
+
+	"LogStreams":
+		[
+			{
+				"level": "trace",
+				"path": "./Logs/Veer.log"
+			}
+		],
+
+	"MongoDBURL":"mongodb://127.0.0.1/ApplicationServices",
+
+	"TargetServer": "https://YOURHOSTHERE.COM",
+
+	"UUID":
+		{
+			"DataCenter": 0,
+			"Worker": 0
+		}
+}
